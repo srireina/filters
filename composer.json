@@ -8,5 +8,19 @@
             "email": "amarnath@srireina.com"
         }
     ],
-    "require": {}
+    "require": {
+		"php": ">=5.5.9"
+	},
+	"autoload": {
+        "psr-4": {
+            "Srireina\\Filters\\": "src/"
+        }
+    },
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Srireina\\Filters\\FiltersServiceProvider"
+			],
+		}
+	}
 }
