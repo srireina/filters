@@ -1,0 +1,12 @@
+{
+    "name": "srireina/filters",
+    "description": "Filters Helpers for AdvancedTable",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Amarnath Maddireddy",
+            "email": "amarnath@srireina.com"
+        }
+    ],
+    "require": {}
+}
